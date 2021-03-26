@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#blog-list-container > div{
+  scroll-behavior: smooth;
+}
+
+#controller-container{
+  top: 0;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+
+#left-latest, #left-top {
+  visibility: hidden;
+}
